@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Multiplier.srcs/sources_1/new/Multiplier.v" \
+"../../../../Multiplier.srcs/sources_1/new/PE.v" \
+"../../../../Multiplier.srcs/sources_1/new/Top.v" \
+"../../../../Multiplier.srcs/sources_1/new/add_muti.v" \
+"../../../../Multiplier.srcs/sources_1/new/add_muti_8bit.v" \
+"../../../../Multiplier.srcs/sim_1/new/test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2700185 on Thu Oct 24 18:46:05 MDT 2019
+# IP Build 2699827 on Thu Oct 24 21:16:38 MDT 2019
+# Start of session at: Tue Jan 10 19:42:10 2023
+# Process ID: 18712
+# Current directory: D:/vivado/Multiplier/Multiplier.runs/impl_1
+# Command line: vivado.exe -log add_muti.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source add_muti.tcl -notrace
+# Log file: D:/vivado/Multiplier/Multiplier.runs/impl_1/add_muti.vdi
+# Journal file: D:/vivado/Multiplier/Multiplier.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source add_muti.tcl -notrace

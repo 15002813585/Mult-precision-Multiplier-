@@ -1,0 +1,17 @@
+0.6
+2019.2
+Oct 24 2019
+19:01:44
+D:/vivado/Multiplier/Multiplier.sim/sim_1/behav/xsim/glbl.v,1571945291,verilog,,,,glbl,,,,,,,,
+D:/vivado/Multiplier/Multiplier.srcs/sim_1/new/PE_test.v,1671264914,verilog,,,,PE_test,,,,,,,,
+D:/vivado/Multiplier/Multiplier.srcs/sim_1/new/add_muti_8bit_test.v,1673359500,verilog,,,,add_muti_8bit_test,,,,,,,,
+D:/vivado/Multiplier/Multiplier.srcs/sim_1/new/add_muti_test.v,1672384851,verilog,,,,add_muti_test,,,,,,,,
+D:/vivado/Multiplier/Multiplier.srcs/sim_1/new/multiplier_test.v,1671265487,verilog,,,,multiplier_test,,,,,,,,
+D:/vivado/Multiplier/Multiplier.srcs/sim_1/new/register_test.v,1671325989,verilog,,,,register_test,,,,,,,,
+D:/vivado/Multiplier/Multiplier.srcs/sim_1/new/test.v,1671528468,verilog,,,,test,,,,,,,,
+D:/vivado/Multiplier/Multiplier.srcs/sources_1/new/Multiplier.v,1673351761,verilog,,D:/vivado/Multiplier/Multiplier.srcs/sources_1/new/PE.v,,Multiplier,,,,,,,,
+D:/vivado/Multiplier/Multiplier.srcs/sources_1/new/PE.v,1671523371,verilog,,D:/vivado/Multiplier/Multiplier.srcs/sources_1/new/add_muti.v,,PE,,,,,,,,
+D:/vivado/Multiplier/Multiplier.srcs/sources_1/new/Top.v,1671595618,verilog,,D:/vivado/Multiplier/Multiplier.srcs/sources_1/new/add_muti.v,,Top,,,,,,,,
+D:/vivado/Multiplier/Multiplier.srcs/sources_1/new/add_muti.v,1672141743,verilog,,D:/vivado/Multiplier/Multiplier.srcs/sim_1/new/PE_test.v,,add_muti,,,,,,,,
+D:/vivado/Multiplier/Multiplier.srcs/sources_1/new/add_muti_8bit.v,1672388063,verilog,,D:/vivado/Multiplier/Multiplier.srcs/sim_1/new/add_muti_8bit_test.v,,add_muti_8bit,,,,,,,,
+D:/vivado/Multiplier/Multiplier.srcs/sources_1/new/register.v,1671326557,verilog,,D:/vivado/Multiplier/Multiplier.srcs/sim_1/new/test.v,,register,,,,,,,,
