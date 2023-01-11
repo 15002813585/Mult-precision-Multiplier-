@@ -80,87 +80,87 @@ A11,A12,A13,A21,A22,A23,A31,A32,A33  //test
 always@(*)begin
     case(cnt)
     4'b0001:begin
-    data_11 <= A1[0][0];
-    data_12 <= 4'b0;
-    data_13 <= 4'b0;
-    data_21 <= B1[0][0];
-    data_22 <= 4'b0;
-    data_23 <= 4'b0;
+    data_11 = A1[0][0];
+    data_12 = 4'b0;
+    data_13 = 4'b0;
+    data_21 = B1[0][0];
+    data_22 = 4'b0;
+    data_23 = 4'b0;
     end
     4'b0010:begin
-    data_11 <= A1[0][1];
-    data_12 <= A1[1][0];
-    data_13 <= 4'b0;
-    data_21 <= B1[0][1];
-    data_22 <= B1[1][0];
-    data_23 <= 4'b0;
+    data_11 = A1[0][1];
+    data_12 = A1[1][0];
+    data_13 = 4'b0;
+    data_21 = B1[0][1];
+    data_22 = B1[1][0];
+    data_23 = 4'b0;
     end
     4'b0011:begin
-    data_11 <= A1[0][2];
-    data_12 <= A1[1][1];
-    data_13 <= A1[2][0];
-    data_21 <= B1[0][2];
-    data_22 <= B1[1][1];
-    data_23 <= B1[2][0];
+    data_11 = A1[0][2];
+    data_12 = A1[1][1];
+    data_13 = A1[2][0];
+    data_21 = B1[0][2];
+    data_22 = B1[1][1];
+    data_23 = B1[2][0];
     end
     4'b0100:begin
-    data_11 <= 4'b0;
-    data_12 <= A1[1][2];
-    data_13 <= A1[2][1];
-    data_21 <= 4'b0;
-    data_22 <= B1[1][2];
-    data_23 <= B1[2][1];
-    res[0][0] <= res11;
+    data_11 = 4'b0;
+    data_12 = A1[1][2];
+    data_13 = A1[2][1];
+    data_21 = 4'b0;
+    data_22 = B1[1][2];
+    data_23 = B1[2][1];
+    res[0][0] = res11;
     end
     4'b0101:begin
-    data_11 <= 4'b0;
-    data_12 <= 4'b0;
-    data_13 <= A1[2][2];
-    data_21 <= 4'b0;
-    data_22 <= 4'b0;
-    data_23 <= B1[2][2];
-    res[0][1] <= res12;
-    res[1][0] <= res21;
+    data_11 = 4'b0;
+    data_12 = 4'b0;
+    data_13 = A1[2][2];
+    data_21 = 4'b0;
+    data_22 = 4'b0;
+    data_23 = B1[2][2];
+    res[0][1] = res12;
+    res[1][0] = res21;
         end
     4'b0110:begin
-    data_11 <= 4'b0;
-    data_12 <= 4'b0;
-    data_13 <= 4'b0;
-    data_21 <= 4'b0;
-    data_22 <= 4'b0;
-    data_23 <= 4'b0;
-    res[0][2] <= res13;
-    res[1][1] <= res22;
-    res[2][0] <= res31;
+    data_11 = 4'b0;
+    data_12 = 4'b0;
+    data_13 = 4'b0;
+    data_21 = 4'b0;
+    data_22 = 4'b0;
+    data_23 = 4'b0;
+    res[0][2] = res13;
+    res[1][1] = res22;
+    res[2][0] = res31;
     end
     
     4'b0111:begin
-    data_11 <= 4'b0;
-    data_12 <= 4'b0;
-    data_13 <= 4'b0;
-    data_21 <= 4'b0;
-    data_22 <= 4'b0;
-    data_23 <= 4'b0;
-    res[1][2] <= res23;
-    res[2][1] <= res32;
+    data_11 = 4'b0;
+    data_12 = 4'b0;
+    data_13 = 4'b0;
+    data_21 = 4'b0;
+    data_22 = 4'b0;
+    data_23 = 4'b0;
+    res[1][2] = res23;
+    res[2][1] = res32;
     end
      4'b1000:begin
-    data_11 <= 4'b0;
-    data_12 <= 4'b0;
-    data_13 <= 4'b0;
-    data_21 <= 4'b0;
-    data_22 <= 4'b0;
-    data_23 <= 4'b0;
-    res[2][2] <= res33;
+    data_11 = 4'b0;
+    data_12 = 4'b0;
+    data_13 = 4'b0;
+    data_21 = 4'b0;
+    data_22 = 4'b0;
+    data_23 = 4'b0;
+    res[2][2] = res33;
     end
      
     default:begin
-    data_11 <= 4'b0;
-    data_12 <= 4'b0;
-    data_13 <= 4'b0;
-    data_21 <= 4'b0;
-    data_22 <= 4'b0;
-    data_23 <= 4'b0;
+    data_11 = 4'b0;
+    data_12 = 4'b0;
+    data_13 = 4'b0;
+    data_21 = 4'b0;
+    data_22 = 4'b0;
+    data_23 = 4'b0;
     end
     endcase
 end
