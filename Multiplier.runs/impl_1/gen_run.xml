@@ -1,65 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7vx485tffg1157-1" LaunchTime="1673350905">
-  <File Type="BITSTR-BMM" Name="add_muti_bd.bmm"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="add_muti_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="add_muti_timing_summary_init.rpt"/>
-  <File Type="ROUTE-PWR" Name="add_muti_power_routed.rpt"/>
   <File Type="PA-TCL" Name="add_muti.tcl"/>
-  <File Type="OPT-TIMING" Name="add_muti_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="add_muti_opt.dcp"/>
-  <File Type="ROUTE-PWR-SUM" Name="add_muti_power_summary_routed.pb"/>
+  <File Type="BITSTR-BMM" Name="add_muti_bd.bmm"/>
   <File Type="REPORTS-TCL" Name="add_muti_reports.tcl"/>
-  <File Type="OPT-DRC" Name="add_muti_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="add_muti_opt.dcp"/>
   <File Type="OPT-HWDEF" Name="add_muti.hwdef"/>
   <File Type="PWROPT-DCP" Name="add_muti_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="add_muti_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="add_muti_timing_summary_pwropted.rpt"/>
   <File Type="PLACE-DCP" Name="add_muti_placed.dcp"/>
-  <File Type="PLACE-IO" Name="add_muti_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="add_muti_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="add_muti_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="add_muti_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="add_muti_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="add_muti_incremental_reuse_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="add_muti_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-TIMING" Name="add_muti_timing_summary_placed.rpt"/>
   <File Type="POSTPLACE-PWROPT-DCP" Name="add_muti_postplace_pwropt.dcp"/>
   <File Type="BG-BIN" Name="add_muti.bin"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="add_muti_timing_summary_postplace_pwropted.rpt"/>
   <File Type="PHYSOPT-DCP" Name="add_muti_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="add_muti_drc_physopted.rpt"/>
   <File Type="BITSTR-MSK" Name="add_muti.msk"/>
-  <File Type="PHYSOPT-TIMING" Name="add_muti_timing_summary_physopted.rpt"/>
   <File Type="ROUTE-ERROR-DCP" Name="add_muti_routed_error.dcp"/>
   <File Type="ROUTE-DCP" Name="add_muti_routed.dcp"/>
   <File Type="ROUTE-BLACKBOX-DCP" Name="add_muti_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="add_muti_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="add_muti_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="add_muti_drc_routed.rpx"/>
   <File Type="BITSTR-MMI" Name="add_muti.mmi"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="add_muti_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="add_muti_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="add_muti_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="add_muti_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="add_muti_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="add_muti_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="add_muti_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="add_muti_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="add_muti_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="add_muti_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="add_muti_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="add_muti_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="add_muti_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="add_muti_bus_skew_routed.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="add_muti_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="add_muti_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="add_muti_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="add_muti_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="add_muti_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="add_muti_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="add_muti_bus_skew_postroute_physopted.pb"/>
   <File Type="BG-BIT" Name="add_muti.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="add_muti_bus_skew_postroute_physopted.rpx"/>
   <File Type="BITSTR-RBT" Name="add_muti.rbt"/>
   <File Type="BITSTR-NKY" Name="add_muti.nky"/>
   <File Type="PDI-FILE" Name="add_muti.pdi"/>
@@ -68,7 +28,6 @@
   <File Type="RNPI_FILE" Name="add_muti.rnpi"/>
   <File Type="NPI_FILE" Name="add_muti.npi"/>
   <File Type="RBD_FILE" Name="add_muti.rbd"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
   <File Type="BITSTR-LTX" Name="add_muti.ltx"/>
   <File Type="BITSTR-SYSDEF" Name="add_muti.sysdef"/>
   <File Type="BG-BGN" Name="add_muti.bgn"/>
@@ -160,5 +119,6 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
   </Strategy>
 </GenRun>

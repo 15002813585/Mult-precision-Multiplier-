@@ -30,6 +30,7 @@ set_property target_language Verilog [current_project]
 set_property ip_output_repo d:/vivado/Multiplier/Multiplier.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_verilog -library xil_defaultlib {
+  D:/vivado/Multiplier/Multiplier.srcs/sources_1/new/Control.v
   D:/vivado/Multiplier/Multiplier.srcs/sources_1/new/Multiplier.v
   D:/vivado/Multiplier/Multiplier.srcs/sources_1/new/PE.v
   D:/vivado/Multiplier/Multiplier.srcs/sources_1/new/add_muti.v

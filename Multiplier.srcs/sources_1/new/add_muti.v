@@ -25,7 +25,7 @@ a,b,result
     );
 input [3:0] a;
 input [3:0] b;
-output [8:0] result;
+output [7:0] result;
 //À©Õ¹ÖÁ8Î»
 reg [7:0] a_r;
 reg [7:0] b_r;
